@@ -42,7 +42,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(240, 124);
+            this.button1.Location = new System.Drawing.Point(206, 125);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 35);
@@ -53,7 +53,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(240, 187);
+            this.button2.Location = new System.Drawing.Point(206, 188);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(145, 35);
@@ -64,7 +64,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(240, 256);
+            this.button3.Location = new System.Drawing.Point(206, 257);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(145, 35);
@@ -75,7 +75,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(240, 324);
+            this.button4.Location = new System.Drawing.Point(206, 325);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(145, 35);
@@ -86,7 +86,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(548, 124);
+            this.button5.Location = new System.Drawing.Point(514, 125);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(145, 35);
@@ -97,7 +97,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(548, 187);
+            this.button6.Location = new System.Drawing.Point(514, 188);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(145, 35);
@@ -108,7 +108,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(548, 256);
+            this.button7.Location = new System.Drawing.Point(514, 257);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(145, 35);
@@ -121,7 +121,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(202, 54);
+            this.label1.Location = new System.Drawing.Point(168, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(477, 26);
             this.label1.TabIndex = 8;
@@ -131,7 +131,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 445);
+            this.ClientSize = new System.Drawing.Size(872, 445);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -148,6 +148,7 @@
             this.Text = "MainDashboard";
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
