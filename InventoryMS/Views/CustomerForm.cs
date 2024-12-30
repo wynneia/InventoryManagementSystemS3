@@ -57,28 +57,7 @@ namespace InventoryMS
 
         private void btnAdd_Click_1(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtName.Text) ||
-                string.IsNullOrWhiteSpace(txtEmail.Text) ||
-                string.IsNullOrWhiteSpace(txtAddress.Text) ||
-                string.IsNullOrWhiteSpace(txtContact.Text))
-            {
-                MessageBox.Show("Please fill all fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            var newCustomer = new Customer
-            {
-                Name = txtName.Text,
-                Email = txtEmail.Text,
-                Address = txtAddress.Text,
-                Contact = txtContact.Text
-            };
-
-            customerController.AddCustomer(newCustomer);
-            MessageBox.Show("Customer added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            ClearFields();
-            LoadCustomers();
+            
         }
 
         private void btnDelete_Click_1(object sender, EventArgs e)
@@ -170,6 +149,11 @@ namespace InventoryMS
         }
 
         private void txtUpdateCustomerId_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

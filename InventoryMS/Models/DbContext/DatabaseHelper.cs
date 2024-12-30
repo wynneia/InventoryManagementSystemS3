@@ -13,8 +13,6 @@ namespace InventoryMS.Models
             if (_connection == null)
             {
                 string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                // Or you can specify the path
-                // C:\Users\user\Documents\
                 string dbPath = Path.Combine(documentsPath, "InventoryMS", "InventoryMS", "Inventory.db");
                 _connection = new SQLiteConnection($"Data Source={dbPath};Version=3;");
                 _connection.Open();

@@ -51,6 +51,20 @@ namespace InventoryMS.Views
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Input validation
+            if (string.IsNullOrWhiteSpace(txtCategoryName.Text))
+            {
+                MessageBox.Show("Please enter a category name.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtCategoryDescription.Text))
+            {
+                MessageBox.Show("Please enter a category description.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Proceed with adding category if validation passes
             var category = new Category
             {
                 Name = txtCategoryName.Text,
